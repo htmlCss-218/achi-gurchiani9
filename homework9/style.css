@@ -1,0 +1,133 @@
+header{
+    font-size: 40px;
+    color: rgb(75, 230, 75);
+    margin-left: 80px; 
+    font-family: sans-serif;
+}
+p.Header{
+    font-size: 15px;
+    color: rgb(172, 163, 163);
+    position: absolute;
+    left: 70px;
+    bottom: 860px;
+}
+div.Total{
+    display: flex;
+}
+div.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: blue;
+    margin-left: 40%;
+    width: 48%;
+    height: 70px;
+    border: blue;
+}
+a.Link1{
+   text-decoration: none;
+   font-size: 30px;
+   color: white; 
+   font-family: sans-serif;
+   width: 900px;
+   height: 50px;
+   text-align: center;
+   padding-top: 10px;
+
+}
+a.Link1:hover{
+    background-color: rgb(74, 74, 182);
+    font-size: 32px;
+}
+.Paragraph{
+    text-align: center;
+    font-size: 32px;
+    animation-name: Paragraph;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+    animation-fill-mode: forwards;
+    background-color: rgb(103, 221, 143);
+    animation-direction: alternate-reverse;
+    position: absolute;
+    animation-delay: 5s;
+    color: white;
+}
+
+@keyframes Paragraph {
+from {left: -500px}
+to {left: 700px}
+0%{background-color:rgb(103, 221, 143) ;}
+25%{background-color: greenyellow;}
+50%{background-color: green;}
+75%{background-color: yellow;}
+85%{background-color: greenyellow;}
+100%{background-color: rgb(103, 221, 143);}
+}
+
+img{
+    width: 400px;
+    height: 350px;
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.img2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.imgs{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+div.footer{
+    display: flex;
+    margin-top: 100px;
+    background-color: rgb(5, 5, 85);
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    font-size: 24px;
+    height: 300px;
+}
+div.footer1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 70px;
+}
+div.footer2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 45px;
+}
+div.footer3{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+}
+div.footer4{
+    margin-bottom: 100px;
+}
+a.Link2{
+text-decoration: none;
+color: rgb(212, 72, 72)
+}
+a.link2:hover{
+text-decoration: underline;
+text-underline-offset: 5px;
+}
